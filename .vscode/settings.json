@@ -1,0 +1,9 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#252564",
+    "titleBar.activeBackground": "#33348C",
+    "titleBar.activeForeground": "#FBFBFE"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "python.pythonPath": "/home/gjuoun/.local/share/virtualenvs/flask-playground-sRydT0nc/bin/python"
+}

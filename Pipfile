@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+app = "./src/app.py"
+
+[packages]
+flask = "*"
+pytest = "*"
+coverage = "*"
+flaskr = {editable = true, path = "."}
+wheel = "*"
+setuptools = "*"
+waitress = "*"
+
+[scripts]
+dev= "python -m flask run"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
